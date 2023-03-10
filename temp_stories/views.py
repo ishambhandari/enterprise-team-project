@@ -20,6 +20,7 @@ def story():
 def temperature_conversion(temperature, change_to):
     converted_temp = None
     temperature = int(temperature)
+    print(change_to)
     if change_to == 'C':
         converted_temp = (temperature-32) * 0.5556
     else:
